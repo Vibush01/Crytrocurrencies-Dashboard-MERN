@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const coinDataSchema = new Schema({
+const coinDataSchema = new mongoose.Schema({
   coinId: { type: String, required: true },
   name: { type: String, required: true },
   symbol: { type: String, required: true },
@@ -11,6 +11,6 @@ const coinDataSchema = new Schema({
 });
 
 const CurrentData = mongoose.model('CurrentData', coinDataSchema);
-const HistoyData = mongoose.model('HistoryData', coinDataSchema);
+const HistoryData = mongoose.model('HistoryData', coinDataSchema);
 
-module.exports = { CurrentData, HistoyData};
+module.exports = { CurrentData, HistoryData};
