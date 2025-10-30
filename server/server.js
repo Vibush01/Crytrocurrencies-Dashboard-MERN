@@ -15,6 +15,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(cors())
 app.use(express.json());
+app.use('/api', require('./routes/coinRoutes'));
 
 app.get("/",(req,res)=>{
     res.send('Crypto Dashboard Backend!');
