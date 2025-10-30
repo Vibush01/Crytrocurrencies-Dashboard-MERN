@@ -36,5 +36,5 @@ This creates a historical log of coin prices over time, which powers the "View H
 screenshot - https://drive.google.com/drive/folders/18xOfKj4ShEcsKiQCw5ia49jDrq6dqYU1?usp=drive_link
 
 Deployment
-Frontend: Netlify - 
-Backend: Render - https://crypto-dashboard-server.onrender.com
+Frontend: Netlify - https://crypto-top10-coins.netlify.app
+Backend: Render - https://crypto-dashboard-server.onrender.com/api
