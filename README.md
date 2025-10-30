@@ -37,4 +37,4 @@ screenshot - https://drive.google.com/drive/folders/18xOfKj4ShEcsKiQCw5ia49jDrq6
 
 Deployment
 Frontend: Netlify - 
-Backend: Render -
+Backend: Render - https://crypto-dashboard-server.onrender.com
